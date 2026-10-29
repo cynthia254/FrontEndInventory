@@ -1,0 +1,2 @@
+(()=>{"use strict";var __webpack_exports__={};function supportsAsyncAwait(){try{return eval("async () => {}"),!0}catch(err){return!1}}supportsAsyncAwait()||location.replace("/hodor")})();
+//# sourceMappingURL=maps/hodor.js.map

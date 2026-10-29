@@ -1,0 +1,92 @@
+{
+  "name": "taskmanage",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@grapecity/spread-sheets": "^16.1.4",
+    "@vueform/multiselect": "^2.6.11",
+    "axios": "^1.3.5",
+    "barcode-scanner": "^0.1.1",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.4",
+    "bootstrap-vue": "^2.23.1",
+    "chart.js": "^4.4.0",
+    "core-js": "^3.8.3",
+    "datatables.net": "^1.13.6",
+    "datatables.net-bs4": "^1.13.6",
+    "datatables.net-select": "^1.7.0",
+    "datatables.net-vue3": "^2.1.3",
+    "exceljs": "^4.4.0",
+    "file-saver": "^2.0.5",
+    "html2pdf.js": "^0.10.1",
+    "jquery": "^3.7.1",
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "^5.0.2",
+    "mdb-vue-ui-kit": "^3.2.0",
+    "moment": "^2.29.4",
+    "papaparse": "^5.4.1",
+    "pdf-parse": "^1.1.1",
+    "pdf2json": "^3.0.4",
+    "pdfjs-dist": "^3.8.162",
+    "quagga": "^0.12.1",
+    "run-success-icon": "^1.0.9",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.7.3",
+    "vue": "^3.2.47",
+    "vue-axios": "^3.5.2",
+    "vue-chartjs": "^5.2.0",
+    "vue-doughnut-chart": "^0.3.0",
+    "vue-multiselect": "^2.1.7",
+    "vue-pdf": "^4.3.0",
+    "vue-router": "^4.0.3",
+    "vue-sweetalert2": "^5.0.5",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/eslint-parser": "^7.12.16",
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/plugin-transform-private-methods": "^7.22.5",
+    "@babel/preset-env": "^7.22.9",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "^5.0.8",
+    "@vue/cli-service": "~5.0.0",
+    "babel-loader": "^9.1.2",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "webpack": "^5.79.0",
+    "worker-loader": "^3.0.8"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
